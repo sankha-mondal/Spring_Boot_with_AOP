@@ -1,4 +1,4 @@
-# Spring_Boot_with_AOP
+# Spring Boot with AOP
 Aspect Oriented Programming (AOP) compliments OOPs in the sense that it also provides modularity. But the key unit of modularity is aspect than class.  AOP breaks the program logic into distinct parts (called concerns). It is used to increase modularity by cross-cutting concerns.
 
 # Spring AOP : Aspect Oriented Programming :
@@ -12,7 +12,6 @@ than properties or state.
 Object oriented langauge we will focus on properties or state. 
 
 # AOP focus on functionality. 
-
 Generally while writing functionality or logic the code divided into two parts. 
 1. core functionality or primary functionality or atual coding for that application.  
 2.  secondary functionality or the functionality which is common on all application or 
@@ -41,8 +40,7 @@ according to AOP.
 	These are cross cutting concern are different from the main business functionality. 
 	
 
-# AOP Terminology 
---------------------
+# AOP Terminology:
 1. Aspect : An aspect is a module that encapsulated adivce and pointcuts and provide cross cutting for our application. 
 2. Point cut : A point cut is an expression language that selects one or more join points where advice will execute.
 3. joint point : A join point is a point in the application were we can apply an AOP advice. 
@@ -52,6 +50,12 @@ according to AOP.
 	b. after 
 	c. around (combination of before and after)
 	d. afterthrow (if any exception generate)
-	e. afterReturning 
-		
+	e. afterReturning
+
+# Spring AOP-Advices:
+■ Before advice: Executes before a join point, and if this advice throws an exception-execution flow doesn't proceed to the join point.
+
+■ After returning advice: This Advice will be executed after successful completion of a join point: for e.g, if a method returns without any exception.
+
+
 	 
