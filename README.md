@@ -1,4 +1,4 @@
-# Spring Boot with AOP
+# Spring Boot with AOP :
 Aspect Oriented Programming (AOP) compliments OOPs in the sense that it also provides modularity. But the key unit of modularity is aspect than class.  AOP breaks the program logic into distinct parts (called concerns). It is used to increase modularity by cross-cutting concerns.
 
 # Spring AOP : Aspect Oriented Programming :
@@ -18,22 +18,17 @@ Generally while writing functionality or logic the code divided into two parts.
 which will support to develop the application or cross cutting is known as secondary functionality 
 according to AOP. 
 
-
 	Banking application:- 
 	a. Check Balance 
 	b. transfer the amount 
 	c. withdraw 
-	d. deposit 
-	
-	etc 
+	d. deposit  etc 
 
 	Secondary functionality:-
    	a. login 
 	b. database connectivity 
 	c. security 
-	d. validation 
-		
-	etc 
+	d. validation  etc 
 
 	AOP allow separation of the cross cutting concern. 
 
@@ -63,5 +58,13 @@ according to AOP.
 ■ Around advice: This is an advice that surrounds a join point and can perform custom action before and even after the method invocation.
 
 
+# AOP Concepts (Contd.):
+⚫ Target: An object being advised by an aspect (or more aspects).
+		◽ A 'target object' is also referred to as the 'advised object'.
 
+⚫ Weaving: The process which links aspects with other application objects.
+		◽ Weaving can be handled in different ways by different frameworks.
+                ◽ Can be done at compile time (e.g.using the AspectJ compiler), load time, or at runtime (e.g. Spring AOP).
+
+  ⚫ AOP proxy: It is an object created by the framework in order to implement the aspects (advise method executions).
 	 
