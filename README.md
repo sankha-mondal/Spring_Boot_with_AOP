@@ -66,5 +66,20 @@ according to AOP.
 		◽ Weaving can be handled in different ways by different frameworks.
                 ◽ Can be done at compile time (e.g.using the AspectJ compiler), load time, or at runtime (e.g. Spring AOP).
 
-  ⚫ AOP proxy: It is an object created by the framework in order to implement the aspects (advise method executions).
-	 
+⚫ AOP proxy: It is an object created by the framework in order to implement the aspects (advise method executions).
+
+
+# Spring AOP Aspects :
+
+■ @AspectJ - is used for declaring aspects using annotations, as simple Java classes.
+
+■ By including the following <XML> element in spring configuration document, @AspectJ is enabled:
+	<aop:aspectj-autoproxy/>
+
+■ The bean defined in your application context, of @Aspect annotated class, will be detected by Spring and used to configure aspects in Spring AOP.
+
+E.g.:
+	@Aspect
+	public class MyCustomAspect {
+ 	. . . 
+  	}
