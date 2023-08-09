@@ -21,18 +21,18 @@ according to AOP.
 
 
 	Banking application 
-	1. Check Balance 
-	2. transfer the amount 
-	3. withdraw 
-	4. deposit 
+	a. Check Balance 
+	b. transfer the amount 
+	c. withdraw 
+	d. deposit 
 	
 	etc 
 
 	Secondary functionality 
-	1. login 
-	2. database connectivity 
-	3. security 
-	4. validation 
+   	a. login 
+	b. database connectivity 
+	c. security 
+	d. validation 
 		
 	etc 
 
