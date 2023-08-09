@@ -20,7 +20,7 @@ which will support to develop the application or cross cutting is known as secon
 according to AOP. 
 
 
-	Banking application 
+	Banking application:- 
 	a. Check Balance 
 	b. transfer the amount 
 	c. withdraw 
@@ -28,7 +28,7 @@ according to AOP.
 	
 	etc 
 
-	Secondary functionality 
+	Secondary functionality:-
    	a. login 
 	b. database connectivity 
 	c. security 
