@@ -39,7 +39,6 @@ according to AOP.
 
 	These are cross cutting concern are different from the main business functionality. 
 	
-
 # AOP Terminology:
 1. Aspect : An aspect is a module that encapsulated adivce and pointcuts and provide cross cutting for our application. 
 2. Point cut : A point cut is an expression language that selects one or more join points where advice will execute.
@@ -53,9 +52,16 @@ according to AOP.
 	e. afterReturning
 
 # Spring AOP-Advices:
-■ Before advice: Executes before a join point, and if this advice throws an exception-execution flow doesn't proceed to the join point.
+■ Before advice:  Executes before a join point, and if this advice throws an exception-execution flow doesn't proceed to the join point.
 
-■ After returning advice: This Advice will be executed after successful completion of a join point: for e.g, if a method returns without any exception.
+■ After returning advice:  This Advice will be executed after successful completion of a join point: for e.g, if a method returns without any exception.
+
+■ After throwing advice:  This advice will be executed only if the method throws an exception.
+
+■ After advice: (finally):  The Advice will be executed, regardless of whether the join point exits normal or exceptional return.
+
+■ Around advice: This is an advice that surrounds a join point and can perform custom action before and even after the method invocation.
+
 
 
 	 
