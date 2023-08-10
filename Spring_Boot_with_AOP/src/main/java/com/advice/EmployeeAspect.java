@@ -12,8 +12,8 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class EmployeeAspect {
 	
-	// @Pointcut("execution(public String com.service.EmployeeService.sayHello(java.lang.String))")   // Use * for any
-	@Pointcut("execution(public * com.controller.EmployeeController.getData(..))")  //  .. use for any No of parameter
+	// @Pointcut("execution(public String com.service.EmployeeService.sayHello(java.lang.String))")   // Use * for any method, class, package
+	@Pointcut("execution(public * com.controller.EmployeeController.*(..))")  //  .. use for any No of parameter
 	public void myPointCut() {
 		
 	}
