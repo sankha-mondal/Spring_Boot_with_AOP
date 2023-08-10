@@ -35,7 +35,7 @@ according to AOP.
 	These are cross cutting concern are different from the main business functionality. 
 	
 # AOP Terminology:
-1. Aspect : An aspect is a module that encapsulated adivce and pointcuts and provide cross cutting for our application. 
+1. Aspect : An aspect is a module that encapsulated adivce and pointcuts and provide cross cutting for our applicatio i.e (adivce + pointcuts) 
 2. Point cut : A point cut is an expression language that selects one or more join points where advice will execute.
 3. joint point : A join point is a point in the application were we can apply an AOP advice. 
 4. Adivce : The advice is an action that we will excecute before or after the method or business method execution. 
